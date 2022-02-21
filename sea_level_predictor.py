@@ -9,7 +9,8 @@ def draw_plot():
     x = df["Year"]
 
     # Create scatter plot
-   
+    fig, ax = plt.subplots()
+    plt.scatter(x, y)
 
     # Create first line of best fit
     
